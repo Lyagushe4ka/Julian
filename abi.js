@@ -1,4 +1,4 @@
-export const abi = [{
+const abi = [{
     "inputs": [{
         "internalType": "string",
         "name": "_name",
@@ -436,3 +436,7 @@ export const abi = [{
     "stateMutability": "nonpayable",
     "type": "function"
 }]
+
+module.exports = {
+    abi
+}
